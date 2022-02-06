@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+	<link rel="icon" sizes="32x32" href="img/logo.png">
+	<meta name="google" content="notranslate">
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<title>SOS</title>
+</head>
+<body class="notranslate">
+	<svg display='none' xmlns="http://www.w3.org/2000/svg">
+		<symbol id='slider__arrow' viewBox="0 0 18 38">
+			<path d="M1.82153 2.08604L1.82153 36.1594L15.5642 19.3135L1.82153 2.08604Z" stroke="white" stroke-width="3.36454" stroke-linecap="round" stroke-linejoin="round"/>
+		</symbol>
+		<symbol id='footer__facebook' viewBox="0 0 10 20">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M6.65382 19.1726H2.56282V9.67859H0.517822V6.40559H2.56282V4.44159C2.56282 1.77259 3.71782 0.183594 6.99582 0.183594H9.72582V3.45659H8.02082C6.74282 3.45659 6.65882 3.91459 6.65882 4.76859L6.65382 6.40559H9.74582L9.38382 9.67859H6.65382V19.1726Z"/>
+		</symbol>
+		<symbol id='footer__twitter' viewBox="0 0 22 17">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M21.2138 2.42967C20.4408 2.75167 19.6098 2.96667 18.7388 3.06467C19.6288 2.56467 20.3118 1.77267 20.6338 0.830668C19.7998 1.29267 18.8778 1.62867 17.8958 1.81067C17.1108 1.02467 15.9898 0.534668 14.7508 0.534668C12.3708 0.534668 10.4398 2.34367 10.4398 4.57367C10.4398 4.89067 10.4778 5.19967 10.5518 5.49467C6.96981 5.32567 3.79381 3.71767 1.66781 1.27467C1.29681 1.87167 1.08481 2.56467 1.08481 3.30567C1.08481 4.70567 1.84581 5.94367 3.00181 6.66767C2.29581 6.64567 1.63181 6.46467 1.04981 6.16167C1.04981 6.17967 1.04981 6.19467 1.04981 6.21367C1.04981 8.17067 2.53481 9.80267 4.50681 10.1737C4.14581 10.2657 3.76381 10.3137 3.37181 10.3137C3.09381 10.3137 2.82381 10.2897 2.56081 10.2437C3.10881 11.8467 4.70081 13.0157 6.58681 13.0487C5.11181 14.1317 3.25381 14.7767 1.23381 14.7767C0.885811 14.7767 0.542811 14.7577 0.205811 14.7207C2.11281 15.8657 4.37881 16.5357 6.81281 16.5357C14.7408 16.5357 19.0758 10.3797 19.0758 5.04267C19.0758 4.86667 19.0708 4.69367 19.0628 4.51967C19.9048 3.94967 20.6358 3.23867 21.2138 2.42967Z"/>
+		</symbol>
+		<symbol id='footer__youtube' viewBox="0 0 26 19">
+			<path d="M20.61 0.183594H5.98961C3.12627 0.183594 0.799805 2.55085 0.799805 5.4644V12.8973C0.799805 15.8163 3.12627 18.1781 5.98961 18.1781H20.6046C23.4733 18.1781 25.7944 15.8108 25.7944 12.8973V5.4644C25.7998 2.55085 23.4733 0.183594 20.61 0.183594ZM17.0959 9.54779L10.2575 12.8642C10.0731 12.9524 9.86705 12.82 9.86705 12.6103V5.7679C9.86705 5.55821 10.084 5.42578 10.2629 5.51958L17.1013 9.04564C17.3074 9.15048 17.302 9.44846 17.0959 9.54779Z"/>
+		</symbol>
+		<symbol id='footer__twitch' viewBox="0 0 20 19">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M19.9602 13.6252V9.5538V0.680176H2.93894L0.811279 2.97688V15.0868H6.13043V18.845H8.47085L11.024 16.1307H17.407L19.9602 13.6252ZM7.40694 13.4165H4.00268C3.76864 13.4165 3.57715 13.2286 3.57715 12.9989V2.76817C3.57715 2.5385 3.76864 2.35059 4.00268 2.35059H17.6197C17.8537 2.35059 18.0452 2.5385 18.0452 2.76817V10.7022C18.0452 10.8171 18.0027 10.9215 17.9229 10.9998L15.5825 13.2965C15.5027 13.3748 15.391 13.4165 15.2793 13.4165H11.3697L8.07183 15.6401C8.00268 15.6871 7.91757 15.7132 7.83247 15.7132C7.76332 15.7132 7.69949 15.6976 7.63566 15.6662C7.49204 15.5932 7.40694 15.4522 7.40694 15.2956V13.4165Z"/>
+			<path d="M13.79 9.76274V5.58691H12.0878V9.76274H13.79ZM9.53465 9.76274V5.58691H7.83252V9.76274H9.53465Z"/>
+		</symbol>
+	</svg>
+
+	<header id="header">
+		<div class="header">
+			<div class="header__nav">
+				<div class="header__logo"><img src="img/logo.png" alt="logo"></div>
+				<nav>
+					<ul class="header__list">
+						<li class="header__item" data-scroll='header' data-language='header__itemMain'>main</li>
+						<li class="header__item" data-scroll='about' data-language='header__itemAbout'>about</li>
+						<li class="header__item" data-scroll='features' data-language='header__itemGameFeatures'>game features</li>
+						<li class="header__item" data-scroll='requirements' data-language='header__itemSystemRequirements'>system requirements</li>
+						<li class="header__item" data-scroll='quotes' data-language='header__itemQuotes'>quotes</li>
+					</ul>
+				</nav>
+				<div class="header__languagesAndPlatforms">
+					<div class="header__languages">
+						<div class="header__language header__language--active" data-languageID='ENG'>ENG</div>
+						<div class="header__arrow"><img src="img/header__arrow.svg" alt="arrow"></div>
+						<div class="header__choiceLanguage">
+							<div class="header__language" data-languageID='RUS'>RUS</div>
+							<div class="header__language" data-languageID='FRA'>FRA</div>
+							<div class="header__language" data-languageID='DEU'>DEU</div>
+						</div>
+					</div>
+					<div class="header__burger"><span></span></div>
+					<div class="header__platforms">
+						<div class="header__xbox"><img src="img/xbox.svg" alt="steam"></div>
+						<div class="header__steam"><img src="img/steam.svg" alt="steam"></div>
+					</div>
+				</div>
+			</div>
+			<div class="header__info">
+				<div class="header__title">
+					<h1 data-language='header__title'>SURVIVE AT ALL COSTS</h1>
+				</div>
+				<div class="header__subtitle"><h3 data-language='header__subtitle'>Experience new social battle royale game</h3></div>
+				<button class="header__button button" data-language='header__button'>Buy now on Steam <span>$14.99</span></button>
+			</div>
+			<div class="header__scroll" data-scroll='about' data-language='header__scroll'>The story</div>
+		</div>
+	</header>
+	<main>
+		<section id="about">
+			<div class="about">
+				<div class="about__info">
+					<div class="about__title">
+						<span class="subtitle" data-language='about__subtitle'>What is SOS?</span>
+						<h1 data-language='about__title'>Social Battle Royale Game</h1>
+					</div>
+					<div class="about__text" data-language='about__text'>
+						<p>Each round, <b>you</b> and <b>15</b> other contestants compete to
+						escape a deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run&nbsp;solo or form friendships with others to&nbsp;escape?</p>
+
+						<p>Making the right decisions could be the&nbsp;difference
+ 						between <span>life and death.</span></p>
+					</div>			
+				</div>
+				<div class="about__slider">
+					<div class="about__sliderContainer">
+						<div class="about__photo about__photo--1" data-photo='1'><img src="img/slider__photo--1.png" alt="photo"></div>
+						<div class="about__photo about__photo--2" data-photo='2'><img src="img/slider__photo--2.png" alt="photo"></div>
+						<div class="about__photo about__photo--3" data-photo='3'><img src="img/slider__photo--3.png" alt="photo"></div>
+						<div class="about__photo about__photo--4" data-photo='4'><img src="img/slider__photo--1.png" alt="photo"></div>
+						<div class="about__photo about__photo--5" data-photo='5'><img src="img/slider__photo--2.png" alt="photo"></div>
+						<div class="about__progress">
+							<div class="about__circle" data-photoId='1' id="firstCircle"><span></span></div>
+							<div class="about__circle" data-photoId='2'><span></span></div>
+							<div class="about__circle" data-photoId='3'><span></span></div>
+							<div class="about__circle" data-photoId='4'><span></span></div>
+							<div class="about__circle" data-photoId='5' id="lastCircle"></div>
+						</div>
+					</div>
+					<div class="about__arrow"><svg><use href='#slider__arrow'></use></svg></div>
+				</div>
+			</div>
+		</section>
+		<section id='features'>
+			<div class="features">
+				<div class="features__container">
+					<div class="features__title">
+						<span class="subtitle" data-language='features__subtitle'>What’s so special?</span>
+						<h1 data-language='features__title'>Features</h1>
+					</div>
+					<div class="features__spoiler">
+						<div class="features__circle"><span></span></div>
+						<div class="features__info">
+							<h2 class="features__spoilerName" data-language='features__spolierName1'>SURVIVE AT ALL COSTS</h2>
+							<div class="features__spoilerText" data-language='features__spolierText1'>
+								You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.
+							</div>
+						</div>
+					</div>
+					<div class="features__spoiler">
+						<div class="features__circle"><span></span></div>
+						<div class="features__info">
+							<h2 class="features__spoilerName" data-language='features__spolierName2'>CREATE ALLIES AND ENEMIES</h2>
+							<div class="features__spoilerText" data-language='features__spolierText2'>
+								You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.
+							</div>
+						</div>
+					</div>
+					<div class="features__spoiler">
+						<div class="features__circle"></div>
+						<div class="features__info">
+							<h2 class="features__spoilerName" data-language='features__spolierName3'>IMPRESS THE AUDIENCE</h2>
+							<div class="features__spoilerText" data-language='features__spolierText3'>
+								You have 30 minutes to find a loremrelic, signal for extraction, and grab one of three spots on the rescue chopper.
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>						
+		</section>
+		<section id="requirements">
+			<div class="requirements">
+				<div class="requirements__title">
+					<span class="subtitle" data-language='requirements__subtitle'>Can My Computer Run this game?</span>
+					<h1 data-language='requirements__title'>system requirements</h1>
+				</div>
+				<div class="requirements__data">
+					<table class="requirements__table">
+						<tr>
+							<td class="requirements__OS">
+								<div class="requirements__containerTd">
+									<div class="requirements__name" data-language='requirements__nameOS'>OS:</div>
+									<div class="requirements__info" data-language='requirements__infoOS'>Windows 7 64-bit only<br> (No OSX support at this time)</div>
+								</div>
+							</td>
+							<td class="requirements__processor">
+								<div class="requirements__containerTd">
+									<div class="requirements__name" data-language='requirements__nameProcessor'>PROCESSOR:</div>
+									<div class="requirements__info" data-language='requirements__infoProcessor'>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="requirements__memory">
+								<div class="requirements__containerTd">
+									<div class="requirements__name" data-language='requirements__nameMemory'>MEMORY:</div>
+									<div class="requirements__info" data-language='requirements__infoMemory'>8 GB RAM</div>
+								</div>
+							</td>
+							<td class='requirements__storage'>
+								<div class="requirements__containerTd">
+									<div class="requirements__name" data-language='requirements__nameStorage'>storage:</div>
+									<div class="requirements__info" data-language='requirements__infoStorage'>8 GB available space</div>
+								</div>
+							</td>
+						</tr>
+						<tr class="requirements__graphics">
+							<td class="requirements__graphics" colspan="2">
+								<div class="requirements__containerTd">
+									<div class="requirements__name" data-language='requirements__nameGraphics'>GRAPHICS:</div>
+									<div class="requirements__info" data-language='requirements__infoGraphics'>NVIDIA GeForce GTX 660 2GB or<br> AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</section>
+		<section id="quotes">
+			<div class="quotes">
+				<div class="quotes__info">
+					<div class="quotes__title">
+						<span class="subtitle" data-language='quotes__subtitle'>What people think?</span>
+						<h1 data-language='quotes__title'>Press quotes</h1>
+					</div>
+					<div class="quotes__text" data-language='quotes__text'>Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</div>
+					<button class="quotes__button button" data-language='quotes__button'>Read more testimonials</button>
+				</div>
+				<div class="quotes__responses">
+					<div class="quotes__response">
+						<div class="quotes__person">
+							<div class="quotes__img"><img src="img/quotes__Evan.png" alt="logo"></div>
+							<div class="quotes__infoOfPerson">
+								<h3 class="quotes__name">Evan Lahti</h3>
+								<div class="quotes__activity">PC Gamer</div>
+							</div>
+						</div>
+						<div class="quotes__textOfResponse">“One of my gaming highlights of the year.”</div>
+						<div class="quotes__date">October 18, 2018</div>					
+					</div>
+					<div class="quotes__response">
+						<div class="quotes__person">
+							<div class="quotes__img"><img src="img/quotes__Jada.png" alt="logo"></div>
+							<div class="quotes__infoOfPerson">
+								<h3 class="quotes__name">Jada Griffin</h3>
+								<div class="quotes__activity">Nerdreactor</div>
+							</div>
+						</div>
+						<div class="quotes__textOfResponse">“The next big thing in the world of streaming and survival games.”</div>
+						<div class="quotes__date">December 21, 2018</div>					
+					</div>
+					<div class="quotes__response">
+						<div class="quotes__person">
+							<div class="quotes__img"><img src="img/quotes__Aaron.png" alt="logo"></div>
+							<div class="quotes__infoOfPerson">
+								<h3 class="quotes__name">Aaron Williams</h3>
+								<div class="quotes__activity">Uproxx</div>
+							</div>
+						</div>
+						<div class="quotes__textOfResponse">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</div>
+						<div class="quotes__date">December 24, 2018</div>					
+					</div>
+				</div>
+			</div>																		
+		</section>
+		<section id='letter'>
+			<div class="letter">
+				
+				<div class="letter__info">
+					<div class="letter__title">
+						<span class="subtitle" data-language='letter__subtitle'>Want to stay in touch?</span>
+						<h1 data-language='letter__title'>newsletter SUBSCRIBE</h1>
+					</div>
+					<div class="letter__text" data-language='letter__text'>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</div>
+					<div class="letter__form">
+						<form id='letter__form' action="#">
+							<div class="letter__mailContainer">
+								<div class="letter__placeholder" data-language='letter__placeholder'>Your email address</div>
+								<input name='email' type="text" class="letter__mail" maxlength="254">
+							</div>
+							<button class="letter__button button" data-language='letter__button'>Subscribe now</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="footer">
+			<div class="footer__nav">
+				<div class="footer__logo"><img src="img/logo.png" alt="logo"></div>
+				<div class="footer__info">
+					<nav>
+						<ul class="footer__list">
+							<li class="footer__item" data-scroll='header' data-language='footer__itemMain'>main</li>
+							<li class="footer__item" data-scroll='about' data-language='footer__itemAbout'>about</li>
+							<li class="footer__item" data-scroll='features' data-language='footer__itemGameFeatures'>game features</li>
+							<li class="footer__item" data-scroll='requirements' data-language='footer__itemSystemRequirements'>system requirements</li>
+							<li class="footer__item" data-scroll='quotes' data-language='footer__itemQuotes'>quotes</li>
+						</ul>
+					</nav>
+					<div class="footer__socials">
+						<div class="footer__facebook footer__social"><a href="https://www.facebook.com/"><svg><use href='#footer__facebook'></use></svg></a></div>
+						<div class="footer__twitter footer__social"><a href="https://www.twitter.com/"><svg><use href='#footer__twitter'></use></svg></a></div>
+						<div class="footer__youtube footer__social"><a href="https://www.youtube.com/"><svg><use href='#footer__youtube'></use></svg></a></div>
+						<div class="footer__twitch footer__social"><a href="https://www.twitch.tv/"><svg><use href='#footer__twitch'></use></svg></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__rights">
+				<div class="footer__reserved" data-language='footer__reserved'>© 2018 Outpost Games, Inc. All Rights Reserved</div>
+				<div class="footer__privacy" data-language='footer__privacy'>Privacy Policy <span>| Terms of Services |</span> Code of Conduct </div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
